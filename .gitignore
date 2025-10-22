@@ -570,3 +570,33 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,python,pycharm+all,jupyternotebooks,vim,visualstudiocode,openframeworks+visualstudio,openframeworks,pycharm
+
+# requirements.txt
+
+# ML/NLP
+pandas
+numpy
+scikit-learn
+transformers
+sentence-transformers
+torch
+
+# App (Streamlit과 Gradio 모두 포함)
+streamlit
+gradio
+
+# Data
+datasets
+
+# -----------------------------------------------------------------
+# [Gradio 추가 사항]
+# -----------------------------------------------------------------
+
+# Gradio 캐시 파일
+.gradio_cache/
+gradio_cached_examples/
+
+# Gradio 로그
+gradio_log.txt
+
+
